@@ -1,0 +1,229 @@
+:root{ --theme-color: #fb2056; 
+--dark: #222222;
+}
+
+
+header{
+ background-image: url(../images/mountai3.jpg);
+background-size: cover;
+background-position: bottom;
+background-color: #0000007a;
+background-blend-mode: overlay;
+background-position: bottom;
+}
+
+
+.hero-banner-section{padding: 200px 0;}
+.hero-banner{text-align: center;}
+.hero-banner h3{ color: #fff;
+font-size: 28px;
+font-style: italic;
+
+
+
+
+ }
+.hero-banner h1{color: #fff; 
+font-size: 70px;
+text-transform: uppercase;
+font-weight: 600;
+letter-spacing: 2px;
+margin: 30px 0;
+
+
+
+}
+.line{width: 100px;
+height: 3px;
+display: block;
+background-color: var(--theme-color);
+margin: auto;
+
+
+}
+.btn-custom {border: 2px solid var(--theme-color);
+    border-radius: 30px;
+    padding: 8px 30px;
+background-color: var(--theme-color);
+color: rgb(255 251 251);
+letter-spacing: 2px;
+text-transform: uppercase;
+font-weight: 600;
+font-size: 15px;
+
+}
+.btn-custom:hover{background-color: transparent;
+color: #fff;
+
+}
+.navbar-light .navbar-brand, .navbar-light .navbar-brand:hover {color: rgb(255 251 251);}
+.navbar-light .navbar-brand h1{font-size: 20px;
+ text-transform: uppercase;
+  font-weight: 700;
+text-align: center;
+
+
+}
+.navbar-light .navbar-brand h1 span{
+display: block;
+font-weight: 100;
+font-size: 15px;
+letter-spacing:2px ;
+
+
+
+}
+
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255 255 255);
+    border: 2px solid #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255 255 255);
+    border: 2px solid transparent;
+    border-radius: 30px;
+    padding: 5px 30px;
+    font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(255 255 255);
+    border: 2px solid #fff;
+}
+/* =======================
+testimonial section
+========================== */
+.testimonial-section{ background-color: #f4f5f9; padding: 30px 0; }
+.testimonial-section img{ width: 100px; }
+.testimonial h3{font-size: 18px;
+color: #555;
+letter-spacing: 2px;
+font-style: italic;
+}
+.testimonial {text-align: center;}
+.testimonial h2{ text-transform: uppercase;
+color: #555;
+font-size: 18px; }
+/* =======================
+upcoming-events-section
+========================== */
+.upcoming-events-section{ padding: 60px 0; }
+.heading{text-align: center; margin-bottom: 40px;
+}
+.heading h1{text-transform: uppercase ;
+color: var(--dark);
+font-size: 35px;
+font-weight: 700;
+letter-spacing: 2px;}
+.event{}
+.event img{ box-shadow: 8px 8px #2222223b;
+border-radius: 10px;
+ }
+.event .card-body{}
+.event .card-body h5{ font-size: 24px;
+color: var(--dark);
+font-weight: 700;
+letter-spacing: 1px;
+ }
+.event .card-body p{ font-size: 17px;
+font-weight: 500;
+color: #666;
+ }
+.event .card-body a{font-size: 16px;
+    text-transform: uppercase;
+    color: var(--theme-color);
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 20px 0;
+    text-decoration: none;
+
+
+
+
+}
+.upcoming-events-section .row > div{padding-right: 30px;
+padding-left: 30px;
+} 
+
+
+
+
+
+
+
+.explore-section{ background-image: url(../images/mountai3.jpg);
+background-size: cover;
+background-position: bottom;
+background-color: #0000007a;
+background-blend-mode: overlay;
+background-position: bottom;
+padding: 100px 0;
+}
+.explore-section h1{ color: #fff; 
+font-size: 70px;
+font-weight: 700;
+
+
+}
+.explore-section .line,
+.tours-section .line
+{ margin: inherit; }
+.explore-section p{ color: #fff; 
+font-size: 18px;
+margin-top: 30px ;
+
+}
+.explore-section a{font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 20px 0;
+    text-decoration: none;}
+
+.tours-section p{ padding: 40px 0; }
+
+.tours-section{padding: 100px 0;}
+.tours-section img.tour_img{height: 200;
+ width: 100%;
+
+object-fit: cover;
+margin-bottom: 20px;
+border-radius: 10px;
+
+
+
+ }
+.tours-section img.destination_img{ 
+height: 400px; 
+width: 100%;
+margin-bottom: 20px;
+border-radius: 10px;
+}
+.tours-section .container{padding-right: 7rem !important;
+padding-left: 7rem !important;
+}
+.tours-section .btn-custom:hover{ color: var(--theme-color); }
+.tours-section .line {margin: inherit;}
+footer p{ background-color: black; text-align: center; color: white; padding: 60px 0;
+letter-spacing: 2px; }
+
+.navbar-toggler{
+width: 35px;
+height: 36px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+padding: 0;
+border: 0;
+
+
+
+}
+.navbar-toggler span{ display: block;
+width: 100%;
+height: 3px;
+background: white;
+
+ }
+ .navbar-toggler:focus {box-shadow: 0 0 0 0;}
